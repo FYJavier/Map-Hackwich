@@ -11,6 +11,7 @@
 		AEDF5B9928918713000C227C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDF5B9828918713000C227C /* ContentView.swift */; };
 		AEDF5B9B28918716000C227C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEDF5B9A28918716000C227C /* Assets.xcassets */; };
 		AEDF5B9E28918716000C227C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEDF5B9D28918716000C227C /* Preview Assets.xcassets */; };
+		AEDF5BA5289188A5000C227C /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDF5BA4289188A5000C227C /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AEDF5B9828918713000C227C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AEDF5B9A28918716000C227C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEDF5B9D28918716000C227C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEDF5BA4289188A5000C227C /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				AEDF5B9628918713000C227C /* Map_HackwichApp.swift */,
 				AEDF5B9828918713000C227C /* ContentView.swift */,
+				AEDF5BA4289188A5000C227C /* LocationManager.swift */,
 				AEDF5B9A28918716000C227C /* Assets.xcassets */,
 				AEDF5B9C28918716000C227C /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				AEDF5B9928918713000C227C /* ContentView.swift in Sources */,
 				AEDF5B9728918713000C227C /* Map_HackwichApp.swift in Sources */,
+				AEDF5BA5289188A5000C227C /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +273,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Map Hackwich/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of location services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +302,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Map Hackwich/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of location services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
